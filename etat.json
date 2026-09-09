@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-09T19:31:30+02:00",
- "etat_global": "operationnel",
- "resume": "Tous les services fonctionnent normalement.",
+ "genere_le": "2026-09-09T19:34:02+02:00",
+ "etat_global": "panne_partielle",
+ "resume": "Doctolib est en panne — la prise de rendez-vous est suspendue",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -65,10 +65,11 @@
    "cle": "rdv",
    "groupe": "secretaire",
    "nom": "Prise de rendez-vous",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_partielle",
+   "detail": "Zuri ne peut pas écrire dans l agenda tant que Doctolib est indisponible",
    "aide": "L'écriture du rendez-vous dans l'agenda.",
-   "depuis": "2026-09-09T19:28:16+02:00"
+   "depuis": "2026-09-09T19:28:16+02:00",
+   "force": true
   },
   {
    "cle": "sms",
@@ -157,22 +158,46 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "operationnel",
-   "detail": "All Systems Operational",
+   "etat": "panne_majeure",
+   "detail": "Panne Doctolib en cours, annoncée par Doctolib",
    "source": "status.doctolib.com",
-   "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
+   "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions.",
+   "force": true
   },
   {
    "cle": "operateur",
    "groupe": "tiers",
    "nom": "Opérateur téléphonique",
    "etat": "degrade",
-   "detail": "Partially Degraded Service",
+   "detail": "Une partie de leurs services est ralentie",
    "source": "status.twilio.com",
    "aide": "Le réseau qui achemine les appels et les SMS. Hors de notre contrôle."
   }
  ],
- "incidents": [],
+ "incidents": [
+  {
+   "id": "INC-260909-1934",
+   "titre": "Doctolib est en panne — la prise de rendez-vous est suspendue",
+   "etat": "surveillance",
+   "composants": [
+    "rdv",
+    "doctolib"
+   ],
+   "ouvert_le": "2026-09-09T19:34:00+02:00",
+   "messages": [
+    {
+     "le": "2026-09-09T19:34:00+02:00",
+     "etape": "investigation",
+     "texte": "Doctolib est indisponible depuis 14 h 10. Zuri continue de répondre au téléphone, de comprendre la demande et de transférer au secrétariat, mais elle ne peut pas enregistrer de rendez-vous. Nous rappellerons les patients concernés dès le rétablissement. Inutile de nous appeler : cette page est mise à jour automatiquement."
+    },
+    {
+     "le": "2026-09-09T19:34:01+02:00",
+     "etape": "surveillance",
+     "texte": "Doctolib annonce un rétablissement progressif. Nous vérifions que les rendez-vous pris avant la panne sont bien tous présents."
+    }
+   ]
+  }
+ ],
  "historique": {
   "appels": {
    "2026-09-09": "operationnel"
@@ -187,7 +212,7 @@
    "2026-09-09": "operationnel"
   },
   "rdv": {
-   "2026-09-09": "operationnel"
+   "2026-09-09": "panne_partielle"
   },
   "sms": {
    "2026-09-09": "operationnel"
