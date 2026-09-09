@@ -1,0 +1,220 @@
+{
+ "produit": "Zuri",
+ "genere_le": "2026-09-09T19:28:16+02:00",
+ "etat_global": "operationnel",
+ "resume": "Tous les services fonctionnent normalement.",
+ "libelles": {
+  "operationnel": "Opérationnel",
+  "maintenance": "Maintenance",
+  "non_applicable": "Non concerné",
+  "inconnu": "Indéterminé",
+  "degrade": "Ralenti",
+  "panne_partielle": "Panne partielle",
+  "panne_majeure": "En panne"
+ },
+ "groupes": [
+  {
+   "cle": "secretaire",
+   "nom": "Zuri secrétaire"
+  },
+  {
+   "cle": "assistante",
+   "nom": "Zuri assistante",
+   "option": true,
+   "note": "Vendue en option de Zuri secrétaire. Si vous n'avez pas cette option, ce bloc ne vous concerne pas."
+  }
+ ],
+ "composants": [
+  {
+   "cle": "appels",
+   "groupe": "secretaire",
+   "nom": "Réception des appels",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "La ligne décroche quand un patient appelle.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "comprehension",
+   "groupe": "secretaire",
+   "nom": "Compréhension de l'appelant",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "Ce que le patient dit est bien entendu et transcrit.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "voix",
+   "groupe": "secretaire",
+   "nom": "Voix de Zuri",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "La voix avec laquelle Zuri répond au téléphone.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "cerveau",
+   "groupe": "secretaire",
+   "nom": "Compréhension de la demande",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "Ce qui permet à Zuri de comprendre la demande et d'y répondre.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "rdv",
+   "groupe": "secretaire",
+   "nom": "Prise de rendez-vous",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "L'écriture du rendez-vous dans l'agenda.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "sms",
+   "groupe": "secretaire",
+   "nom": "SMS de confirmation",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "Le message envoyé au patient après l'appel.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "transfert",
+   "groupe": "secretaire",
+   "nom": "Transfert vers le secrétariat",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "Le passage à une personne quand Zuri ne sait pas répondre.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "espace",
+   "groupe": "secretaire",
+   "nom": "Espace Zuri",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "L'écran où le secrétariat suit les appels.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "a_acces",
+   "groupe": "assistante",
+   "nom": "Accès à l'espace assistante",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "Ouvrir la console et s'y connecter.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "a_parcours",
+   "groupe": "assistante",
+   "nom": "Création du parcours patient",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "Les dossiers et les rendez-vous arrivent dans la console.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "a_documents",
+   "groupe": "assistante",
+   "nom": "Rédaction des documents",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "La préparation du devis, du consentement et de la notice.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "a_envoi",
+   "groupe": "assistante",
+   "nom": "Envoi au patient",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "Le document part par SMS ou par courriel.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "a_signature",
+   "groupe": "assistante",
+   "nom": "Signature électronique",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "Le patient signe et la signature revient au dossier.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  },
+  {
+   "cle": "a_portail",
+   "groupe": "assistante",
+   "nom": "Portail patient",
+   "etat": "operationnel",
+   "detail": "",
+   "aide": "La page que le patient ouvre depuis son SMS.",
+   "depuis": "2026-09-09T19:28:16+02:00"
+  }
+ ],
+ "tiers": [
+  {
+   "cle": "doctolib",
+   "groupe": "tiers",
+   "nom": "Doctolib",
+   "etat": "operationnel",
+   "detail": "All Systems Operational",
+   "source": "status.doctolib.com",
+   "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
+  },
+  {
+   "cle": "operateur",
+   "groupe": "tiers",
+   "nom": "Opérateur téléphonique",
+   "etat": "degrade",
+   "detail": "Partially Degraded Service",
+   "source": "status.twilio.com",
+   "aide": "Le réseau qui achemine les appels et les SMS. Hors de notre contrôle."
+  }
+ ],
+ "incidents": [],
+ "historique": {
+  "appels": {
+   "2026-09-09": "operationnel"
+  },
+  "comprehension": {
+   "2026-09-09": "operationnel"
+  },
+  "voix": {
+   "2026-09-09": "operationnel"
+  },
+  "cerveau": {
+   "2026-09-09": "operationnel"
+  },
+  "rdv": {
+   "2026-09-09": "operationnel"
+  },
+  "sms": {
+   "2026-09-09": "operationnel"
+  },
+  "transfert": {
+   "2026-09-09": "operationnel"
+  },
+  "espace": {
+   "2026-09-09": "operationnel"
+  },
+  "a_acces": {
+   "2026-09-09": "operationnel"
+  },
+  "a_parcours": {
+   "2026-09-09": "operationnel"
+  },
+  "a_documents": {
+   "2026-09-09": "operationnel"
+  },
+  "a_envoi": {
+   "2026-09-09": "operationnel"
+  },
+  "a_signature": {
+   "2026-09-09": "operationnel"
+  },
+  "a_portail": {
+   "2026-09-09": "operationnel"
+  }
+ }
+}
