@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-10T12:28:11+02:00",
- "etat_global": "panne_majeure",
- "resume": "2 services perturbés : Accès à l'espace assistante, Création du parcours patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-09-10T12:33:14+02:00",
+ "etat_global": "operationnel",
+ "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -101,19 +101,19 @@
    "cle": "a_acces",
    "groupe": "assistante",
    "nom": "Accès à l'espace assistante",
-   "etat": "panne_majeure",
-   "detail": "la console signale une anomalie",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "Ouvrir la console et s'y connecter.",
-   "depuis": "2026-09-10T12:28:11+02:00"
+   "depuis": "2026-09-10T12:32:13+02:00"
   },
   {
    "cle": "a_parcours",
    "groupe": "assistante",
    "nom": "Création du parcours patient",
-   "etat": "panne_partielle",
-   "detail": "les dossiers ne se rafraîchissent plus",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "Les dossiers et les rendez-vous arrivent dans la console.",
-   "depuis": "2026-09-10T12:28:11+02:00"
+   "depuis": "2026-09-10T12:32:13+02:00"
   },
   {
    "cle": "a_documents",
