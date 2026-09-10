@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-10T17:23:28+02:00",
+ "genere_le": "2026-09-10T17:43:41+02:00",
  "etat_global": "degrade",
  "resume": "SMS de confirmation : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "degrade",
-   "detail": "3 échec(s) sur 10 · 3 annoncé(s) au patient sans être parti(s)",
+   "detail": "2 échec(s) sur 9 · 2 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-09-10T17:05:19+02:00"
   },
