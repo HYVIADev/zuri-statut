@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-10T16:08:36+02:00",
- "etat_global": "degrade",
- "resume": "SMS de confirmation : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-09-10T16:32:54+02:00",
+ "etat_global": "panne_partielle",
+ "resume": "SMS de confirmation : panne partielle. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -74,10 +74,10 @@
    "cle": "sms",
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
-   "etat": "degrade",
-   "detail": "2 échec(s) sur 7 · 2 annoncé(s) au patient sans être parti(s)",
+   "etat": "panne_partielle",
+   "detail": "3 échec(s) sur 8 · 3 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
-   "depuis": "2026-09-10T15:14:00+02:00"
+   "depuis": "2026-09-10T16:28:50+02:00"
   },
   {
    "cle": "transfert",
