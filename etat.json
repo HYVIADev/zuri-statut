@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-11T17:45:06+02:00",
+ "genere_le": "2026-09-11T18:04:18+02:00",
  "etat_global": "operationnel",
- "resume": "Nos services fonctionnent normalement. Doctolib signale de son côté : panne mineure chez eux.",
+ "resume": "Nos services fonctionnent normalement. Doctolib signale de son côté : une partie de leurs services est en panne.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -157,8 +157,8 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "degrade",
-   "detail": "Panne mineure chez eux",
+   "etat": "panne_partielle",
+   "detail": "Une partie de leurs services est en panne",
    "source": "status.doctolib.com",
    "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
   },
