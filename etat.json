@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-12T20:54:13+02:00",
- "etat_global": "degrade",
- "resume": "Compréhension de la demande : ralenti. Doctolib est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-09-12T21:03:23+02:00",
+ "etat_global": "operationnel",
+ "resume": "Nos services fonctionnent normalement. Doctolib signale de son côté : une partie de leurs services est en panne.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -56,10 +56,10 @@
    "cle": "cerveau",
    "groupe": "secretaire",
    "nom": "Compréhension de la demande",
-   "etat": "degrade",
-   "detail": "cerveau de secours en service",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "Ce qui permet à Zuri de comprendre la demande et d'y répondre.",
-   "depuis": "2026-09-12T20:52:09+02:00"
+   "depuis": "2026-09-12T21:00:16+02:00"
   },
   {
    "cle": "rdv",
