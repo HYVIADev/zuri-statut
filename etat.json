@@ -1,7 +1,7 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-15T14:52:04+02:00",
- "etat_global": "panne_partielle",
+ "genere_le": "2026-09-15T15:21:25+02:00",
+ "etat_global": "panne_majeure",
  "resume": "2 services perturbés : Voix de Zuri, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
@@ -74,10 +74,10 @@
    "cle": "sms",
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
-   "etat": "panne_partielle",
-   "detail": "1 échec(s) sur 2 · 1 annoncé(s) au patient sans être parti(s)",
+   "etat": "panne_majeure",
+   "detail": "1 échec(s) sur 1, aucun passé · 1 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
-   "depuis": "2026-09-15T14:19:52+02:00"
+   "depuis": "2026-09-15T15:17:23+02:00"
   },
   {
    "cle": "transfert",
@@ -226,7 +226,7 @@
    "2026-09-12": "operationnel",
    "2026-09-13": "operationnel",
    "2026-09-14": "operationnel",
-   "2026-09-15": "panne_partielle"
+   "2026-09-15": "panne_majeure"
   },
   "transfert": {
    "2026-09-09": "operationnel",
