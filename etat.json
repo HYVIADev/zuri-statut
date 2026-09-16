@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-16T13:18:14+02:00",
+ "genere_le": "2026-09-16T13:43:29+02:00",
  "etat_global": "degrade",
  "resume": "Voix de Zuri : ralenti. Doctolib est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -157,8 +157,8 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "panne_partielle",
-   "detail": "Une partie de leurs services est en panne",
+   "etat": "degrade",
+   "detail": "Une partie de leurs services est ralentie",
    "source": "status.doctolib.com",
    "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
   },
