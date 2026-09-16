@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-16T14:33:58+02:00",
+ "genere_le": "2026-09-16T14:53:06+02:00",
  "etat_global": "degrade",
  "resume": "2 services perturbés : Voix de Zuri, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -48,7 +48,7 @@
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
    "etat": "degrade",
-   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
+   "detail": "2 phrase(s) dites par la voix de secours en 60 min",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
    "depuis": "2026-09-16T13:18:14+02:00"
   },
