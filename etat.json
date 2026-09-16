@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-16T14:28:54+02:00",
+ "genere_le": "2026-09-16T14:33:58+02:00",
  "etat_global": "degrade",
- "resume": "2 services perturbés : Voix de Zuri, SMS de confirmation. Doctolib est également perturbé, hors de notre contrôle.",
+ "resume": "2 services perturbés : Voix de Zuri, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -157,8 +157,8 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "degrade",
-   "detail": "Une partie de leurs services est ralentie",
+   "etat": "operationnel",
+   "detail": "Tous leurs services fonctionnent",
    "source": "status.doctolib.com",
    "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
   },
