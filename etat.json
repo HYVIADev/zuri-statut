@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-16T10:17:58+02:00",
+ "genere_le": "2026-09-16T10:48:28+02:00",
  "etat_global": "degrade",
- "resume": "Voix de Zuri : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "Voix de Zuri : ralenti. Doctolib est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -157,8 +157,8 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "operationnel",
-   "detail": "Tous leurs services fonctionnent",
+   "etat": "panne_partielle",
+   "detail": "Une partie de leurs services est en panne",
    "source": "status.doctolib.com",
    "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
   },
