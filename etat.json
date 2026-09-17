@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-17T15:24:00+02:00",
- "etat_global": "panne_partielle",
- "resume": "2 services perturbés : Voix de Zuri, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-09-17T15:29:03+02:00",
+ "etat_global": "panne_majeure",
+ "resume": "4 services perturbés : Voix de Zuri, SMS de confirmation, Accès à l'espace assistante. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -101,19 +101,19 @@
    "cle": "a_acces",
    "groupe": "assistante",
    "nom": "Accès à l'espace assistante",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_majeure",
+   "detail": "la console signale une anomalie",
    "aide": "Ouvrir la console et s'y connecter.",
-   "depuis": "2026-09-10T12:52:20+02:00"
+   "depuis": "2026-09-17T15:28:01+02:00"
   },
   {
    "cle": "a_parcours",
    "groupe": "assistante",
    "nom": "Création du parcours patient",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_partielle",
+   "detail": "les dossiers ne se rafraîchissent plus",
    "aide": "Les dossiers et les rendez-vous arrivent dans la console.",
-   "depuis": "2026-09-10T12:52:20+02:00"
+   "depuis": "2026-09-17T15:28:01+02:00"
   },
   {
    "cle": "a_documents",
@@ -271,7 +271,7 @@
    "2026-09-14": "operationnel",
    "2026-09-15": "operationnel",
    "2026-09-16": "operationnel",
-   "2026-09-17": "operationnel"
+   "2026-09-17": "panne_majeure"
   },
   "a_parcours": {
    "2026-09-09": "operationnel",
@@ -282,7 +282,7 @@
    "2026-09-14": "operationnel",
    "2026-09-15": "operationnel",
    "2026-09-16": "operationnel",
-   "2026-09-17": "operationnel"
+   "2026-09-17": "panne_partielle"
   },
   "a_documents": {
    "2026-09-09": "operationnel",
