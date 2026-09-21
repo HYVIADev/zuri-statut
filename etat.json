@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-21T14:28:38+02:00",
- "etat_global": "degrade",
- "resume": "Voix de Zuri : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-09-21T14:38:43+02:00",
+ "etat_global": "panne_majeure",
+ "resume": "2 services perturbés : Accès à l'espace assistante, Création du parcours patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "degrade",
-   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-09-21T13:27:05+02:00"
+   "depuis": "2026-09-21T14:38:43+02:00"
   },
   {
    "cle": "cerveau",
@@ -101,19 +101,19 @@
    "cle": "a_acces",
    "groupe": "assistante",
    "nom": "Accès à l'espace assistante",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_majeure",
+   "detail": "la console signale une anomalie",
    "aide": "Ouvrir la console et s'y connecter.",
-   "depuis": "2026-09-17T15:33:04+02:00"
+   "depuis": "2026-09-21T14:35:41+02:00"
   },
   {
    "cle": "a_parcours",
    "groupe": "assistante",
    "nom": "Création du parcours patient",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_partielle",
+   "detail": "les dossiers ne se rafraîchissent plus",
    "aide": "Les dossiers et les rendez-vous arrivent dans la console.",
-   "depuis": "2026-09-17T15:33:04+02:00"
+   "depuis": "2026-09-21T14:35:41+02:00"
   },
   {
    "cle": "a_documents",
@@ -307,7 +307,7 @@
    "2026-09-18": "operationnel",
    "2026-09-19": "operationnel",
    "2026-09-20": "operationnel",
-   "2026-09-21": "operationnel"
+   "2026-09-21": "panne_majeure"
   },
   "a_parcours": {
    "2026-09-09": "operationnel",
@@ -322,7 +322,7 @@
    "2026-09-18": "operationnel",
    "2026-09-19": "operationnel",
    "2026-09-20": "operationnel",
-   "2026-09-21": "operationnel"
+   "2026-09-21": "panne_partielle"
   },
   "a_documents": {
    "2026-09-09": "operationnel",
