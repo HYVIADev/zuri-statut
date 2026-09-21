@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-21T13:07:58+02:00",
+ "genere_le": "2026-09-21T13:28:06+02:00",
  "etat_global": "degrade",
- "resume": "SMS de confirmation : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "2 services perturbés : Voix de Zuri, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "degrade",
+   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-09-21T12:23:38+02:00"
+   "depuis": "2026-09-21T13:27:05+02:00"
   },
   {
    "cle": "cerveau",
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "degrade",
-   "detail": "1 échec(s) sur 9 · 1 annoncé(s) au patient sans être parti(s)",
+   "detail": "1 échec(s) sur 8 · 1 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-09-21T13:02:57+02:00"
   },
