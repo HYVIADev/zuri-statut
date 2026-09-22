@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-22T02:05:52+02:00",
- "etat_global": "degrade",
- "resume": "Compréhension de la demande : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-09-22T02:11:02+02:00",
+ "etat_global": "operationnel",
+ "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -56,10 +56,10 @@
    "cle": "cerveau",
    "groupe": "secretaire",
    "nom": "Compréhension de la demande",
-   "etat": "degrade",
-   "detail": "cerveau local désarmé",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "Ce qui permet à Zuri de comprendre la demande et d'y répondre.",
-   "depuis": "2026-09-22T02:01:33+02:00"
+   "depuis": "2026-09-22T02:06:52+02:00"
   },
   {
    "cle": "rdv",
