@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-24T19:02:39+02:00",
- "etat_global": "operationnel",
- "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
+ "genere_le": "2026-09-24T19:37:15+02:00",
+ "etat_global": "degrade",
+ "resume": "Compréhension de l'appelant : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -38,10 +38,10 @@
    "cle": "comprehension",
    "groupe": "secretaire",
    "nom": "Compréhension de l'appelant",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "degrade",
+   "detail": "transcription lente (1202 ms en moyenne)",
    "aide": "Ce que le patient dit est bien entendu et transcrit.",
-   "depuis": "2026-09-09T19:28:16+02:00"
+   "depuis": "2026-09-24T19:34:16+02:00"
   },
   {
    "cle": "voix",
@@ -59,7 +59,7 @@
    "etat": "operationnel",
    "detail": "",
    "aide": "Ce qui permet à Zuri de comprendre la demande et d'y répondre.",
-   "depuis": "2026-09-24T19:01:38+02:00"
+   "depuis": "2026-09-24T19:32:12+02:00"
   },
   {
    "cle": "rdv",
@@ -208,7 +208,7 @@
    "2026-09-21": "operationnel",
    "2026-09-22": "operationnel",
    "2026-09-23": "operationnel",
-   "2026-09-24": "operationnel"
+   "2026-09-24": "degrade"
   },
   "voix": {
    "2026-09-09": "operationnel",
