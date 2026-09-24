@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-24T19:57:23+02:00",
- "etat_global": "degrade",
- "resume": "Compréhension de l'appelant : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-09-24T22:22:44+02:00",
+ "etat_global": "operationnel",
+ "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -38,10 +38,10 @@
    "cle": "comprehension",
    "groupe": "secretaire",
    "nom": "Compréhension de l'appelant",
-   "etat": "degrade",
-   "detail": "transcription lente (1202 ms en moyenne)",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "Ce que le patient dit est bien entendu et transcrit.",
-   "depuis": "2026-09-24T19:34:16+02:00"
+   "depuis": "2026-09-24T22:20:43+02:00"
   },
   {
    "cle": "voix",
