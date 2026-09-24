@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-24T22:32:50+02:00",
+ "genere_le": "2026-09-25T00:32:46+02:00",
  "etat_global": "operationnel",
  "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
  "libelles": {
@@ -157,8 +157,8 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "maintenance",
-   "detail": "Maintenance en cours chez eux",
+   "etat": "operationnel",
+   "detail": "Tous leurs services fonctionnent",
    "source": "status.doctolib.com",
    "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
   },
@@ -190,7 +190,8 @@
    "2026-09-21": "operationnel",
    "2026-09-22": "operationnel",
    "2026-09-23": "operationnel",
-   "2026-09-24": "operationnel"
+   "2026-09-24": "operationnel",
+   "2026-09-25": "operationnel"
   },
   "comprehension": {
    "2026-09-09": "operationnel",
@@ -208,7 +209,8 @@
    "2026-09-21": "operationnel",
    "2026-09-22": "operationnel",
    "2026-09-23": "operationnel",
-   "2026-09-24": "degrade"
+   "2026-09-24": "degrade",
+   "2026-09-25": "operationnel"
   },
   "voix": {
    "2026-09-09": "operationnel",
@@ -226,7 +228,8 @@
    "2026-09-21": "degrade",
    "2026-09-22": "degrade",
    "2026-09-23": "degrade",
-   "2026-09-24": "degrade"
+   "2026-09-24": "degrade",
+   "2026-09-25": "operationnel"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
@@ -244,7 +247,8 @@
    "2026-09-21": "degrade",
    "2026-09-22": "degrade",
    "2026-09-23": "operationnel",
-   "2026-09-24": "degrade"
+   "2026-09-24": "degrade",
+   "2026-09-25": "operationnel"
   },
   "rdv": {
    "2026-09-09": "operationnel",
@@ -262,7 +266,8 @@
    "2026-09-21": "operationnel",
    "2026-09-22": "operationnel",
    "2026-09-23": "operationnel",
-   "2026-09-24": "operationnel"
+   "2026-09-24": "operationnel",
+   "2026-09-25": "operationnel"
   },
   "sms": {
    "2026-09-09": "operationnel",
@@ -280,7 +285,8 @@
    "2026-09-21": "panne_majeure",
    "2026-09-22": "degrade",
    "2026-09-23": "operationnel",
-   "2026-09-24": "operationnel"
+   "2026-09-24": "operationnel",
+   "2026-09-25": "operationnel"
   },
   "transfert": {
    "2026-09-09": "operationnel",
@@ -298,7 +304,8 @@
    "2026-09-21": "operationnel",
    "2026-09-22": "operationnel",
    "2026-09-23": "operationnel",
-   "2026-09-24": "operationnel"
+   "2026-09-24": "operationnel",
+   "2026-09-25": "operationnel"
   },
   "espace": {
    "2026-09-09": "operationnel",
@@ -316,7 +323,8 @@
    "2026-09-21": "operationnel",
    "2026-09-22": "operationnel",
    "2026-09-23": "operationnel",
-   "2026-09-24": "operationnel"
+   "2026-09-24": "operationnel",
+   "2026-09-25": "operationnel"
   },
   "a_acces": {
    "2026-09-09": "operationnel",
@@ -334,7 +342,8 @@
    "2026-09-21": "panne_majeure",
    "2026-09-22": "operationnel",
    "2026-09-23": "panne_majeure",
-   "2026-09-24": "panne_majeure"
+   "2026-09-24": "panne_majeure",
+   "2026-09-25": "operationnel"
   },
   "a_parcours": {
    "2026-09-09": "operationnel",
@@ -352,7 +361,8 @@
    "2026-09-21": "panne_partielle",
    "2026-09-22": "operationnel",
    "2026-09-23": "panne_partielle",
-   "2026-09-24": "panne_partielle"
+   "2026-09-24": "panne_partielle",
+   "2026-09-25": "operationnel"
   },
   "a_documents": {
    "2026-09-09": "operationnel",
@@ -370,7 +380,8 @@
    "2026-09-21": "operationnel",
    "2026-09-22": "operationnel",
    "2026-09-23": "operationnel",
-   "2026-09-24": "operationnel"
+   "2026-09-24": "operationnel",
+   "2026-09-25": "operationnel"
   },
   "a_envoi": {
    "2026-09-09": "operationnel",
@@ -388,7 +399,8 @@
    "2026-09-21": "operationnel",
    "2026-09-22": "operationnel",
    "2026-09-23": "operationnel",
-   "2026-09-24": "operationnel"
+   "2026-09-24": "operationnel",
+   "2026-09-25": "operationnel"
   },
   "a_signature": {
    "2026-09-09": "operationnel",
@@ -406,7 +418,8 @@
    "2026-09-21": "operationnel",
    "2026-09-22": "operationnel",
    "2026-09-23": "operationnel",
-   "2026-09-24": "operationnel"
+   "2026-09-24": "operationnel",
+   "2026-09-25": "operationnel"
   },
   "a_portail": {
    "2026-09-09": "operationnel",
@@ -424,7 +437,8 @@
    "2026-09-21": "operationnel",
    "2026-09-22": "operationnel",
    "2026-09-23": "operationnel",
-   "2026-09-24": "operationnel"
+   "2026-09-24": "operationnel",
+   "2026-09-25": "operationnel"
   }
  }
 }
