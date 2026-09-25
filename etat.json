@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-25T11:37:55+02:00",
+ "genere_le": "2026-09-25T12:08:26+02:00",
  "etat_global": "degrade",
- "resume": "2 services perturbés : Voix de Zuri, SMS de confirmation. Doctolib est également perturbé, hors de notre contrôle.",
+ "resume": "SMS de confirmation : ralenti. Doctolib est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "degrade",
-   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-09-25T11:06:44+02:00"
+   "depuis": "2026-09-25T12:05:21+02:00"
   },
   {
    "cle": "cerveau",
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "degrade",
-   "detail": "1 échec(s) sur 4 · 1 annoncé(s) au patient sans être parti(s)",
+   "detail": "1 échec(s) sur 3 · 1 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-09-25T11:00:41+02:00"
   },
