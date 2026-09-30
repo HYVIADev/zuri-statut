@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-09-30T17:13:39+02:00",
+ "genere_le": "2026-09-30T17:38:43+02:00",
  "etat_global": "panne_partielle",
  "resume": "SMS de confirmation : panne partielle. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "panne_partielle",
-   "detail": "2 échec(s) sur 5 · 2 annoncé(s) au patient sans être parti(s)",
+   "detail": "2 échec(s) sur 4 · 2 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-09-30T17:11:39+02:00"
   },
