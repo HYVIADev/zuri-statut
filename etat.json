@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-03T20:13:54+02:00",
+ "genere_le": "2026-10-04T02:14:53+02:00",
  "etat_global": "operationnel",
  "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
  "libelles": {
@@ -199,7 +199,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "comprehension": {
    "2026-09-09": "operationnel",
@@ -226,7 +227,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "voix": {
    "2026-09-09": "operationnel",
@@ -253,7 +255,8 @@
    "2026-09-30": "degrade",
    "2026-10-01": "degrade",
    "2026-10-02": "degrade",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
@@ -280,7 +283,8 @@
    "2026-09-30": "degrade",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "rdv": {
    "2026-09-09": "operationnel",
@@ -307,7 +311,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "sms": {
    "2026-09-09": "operationnel",
@@ -334,7 +339,8 @@
    "2026-09-30": "panne_partielle",
    "2026-10-01": "panne_partielle",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "transfert": {
    "2026-09-09": "operationnel",
@@ -361,7 +367,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "espace": {
    "2026-09-09": "operationnel",
@@ -388,7 +395,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "a_acces": {
    "2026-09-09": "operationnel",
@@ -415,7 +423,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "a_parcours": {
    "2026-09-09": "operationnel",
@@ -442,7 +451,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "a_documents": {
    "2026-09-09": "operationnel",
@@ -469,7 +479,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "a_envoi": {
    "2026-09-09": "operationnel",
@@ -496,7 +507,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "a_signature": {
    "2026-09-09": "operationnel",
@@ -523,7 +535,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   },
   "a_portail": {
    "2026-09-09": "operationnel",
@@ -550,7 +563,8 @@
    "2026-09-30": "operationnel",
    "2026-10-01": "operationnel",
    "2026-10-02": "operationnel",
-   "2026-10-03": "operationnel"
+   "2026-10-03": "operationnel",
+   "2026-10-04": "operationnel"
   }
  }
 }
