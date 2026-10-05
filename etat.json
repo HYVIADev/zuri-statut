@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-05T18:29:32+02:00",
+ "genere_le": "2026-10-05T18:49:36+02:00",
  "etat_global": "degrade",
  "resume": "2 services perturbés : SMS de confirmation, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "degrade",
-   "detail": "1 échec(s) sur 7 · 1 annoncé(s) au patient sans être parti(s)",
+   "detail": "1 échec(s) sur 6 · 1 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-10-05T18:26:32+02:00"
   },
