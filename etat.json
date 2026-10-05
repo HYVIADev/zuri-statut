@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-05T10:14:07+02:00",
+ "genere_le": "2026-10-05T10:24:09+02:00",
  "etat_global": "degrade",
  "resume": "2 services perturbés : Voix de Zuri, SMS de confirmation. Doctolib est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "degrade",
-   "detail": "1 échec(s) sur 6",
+   "detail": "1 échec(s) sur 8",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-10-05T10:14:07+02:00"
   },
