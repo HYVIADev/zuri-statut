@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-08T19:23:14+02:00",
- "etat_global": "panne_partielle",
- "resume": "SMS de confirmation : panne partielle. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-10-08T19:28:10+02:00",
+ "etat_global": "panne_majeure",
+ "resume": "SMS de confirmation : en panne. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -74,10 +74,10 @@
    "cle": "sms",
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
-   "etat": "panne_partielle",
-   "detail": "1 échec(s) sur 2 · 1 annoncé(s) au patient sans être parti(s)",
+   "etat": "panne_majeure",
+   "detail": "1 échec(s) sur 1, aucun passé · 1 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
-   "depuis": "2026-10-08T18:54:45+02:00"
+   "depuis": "2026-10-08T19:28:10+02:00"
   },
   {
    "cle": "transfert",
@@ -157,8 +157,8 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "inconnu",
-   "detail": "état Doctolib non consultable",
+   "etat": "operationnel",
+   "detail": "Tous leurs services fonctionnent",
    "source": "status.doctolib.com",
    "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
   },
@@ -364,7 +364,7 @@
    "2026-10-05": "panne_majeure",
    "2026-10-06": "operationnel",
    "2026-10-07": "panne_majeure",
-   "2026-10-08": "panne_partielle"
+   "2026-10-08": "panne_majeure"
   },
   "transfert": {
    "2026-09-09": "operationnel",
