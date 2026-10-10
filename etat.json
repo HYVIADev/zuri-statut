@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-10T05:17:20+02:00",
- "etat_global": "operationnel",
- "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
+ "genere_le": "2026-10-10T05:37:40+02:00",
+ "etat_global": "panne_majeure",
+ "resume": "Compréhension de l'appelant : en panne. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -38,10 +38,10 @@
    "cle": "comprehension",
    "groupe": "secretaire",
    "nom": "Compréhension de l'appelant",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_majeure",
+   "detail": "les oreilles ne répondent pas (injoignable)",
    "aide": "Ce que le patient dit est bien entendu et transcrit.",
-   "depuis": "2026-09-24T22:20:43+02:00"
+   "depuis": "2026-10-10T05:37:40+02:00"
   },
   {
    "cle": "voix",
@@ -240,7 +240,7 @@
    "2026-10-07": "operationnel",
    "2026-10-08": "operationnel",
    "2026-10-09": "operationnel",
-   "2026-10-10": "operationnel"
+   "2026-10-10": "panne_majeure"
   },
   "voix": {
    "2026-09-09": "operationnel",
