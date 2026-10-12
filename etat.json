@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-12T07:55:31+02:00",
- "etat_global": "operationnel",
- "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
+ "genere_le": "2026-10-12T09:15:14+02:00",
+ "etat_global": "panne_partielle",
+ "resume": "SMS de confirmation : panne partielle. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -74,10 +74,10 @@
    "cle": "sms",
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_partielle",
+   "detail": "1 échec(s) sur 2 · 1 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
-   "depuis": "2026-10-09T15:54:03+02:00"
+   "depuis": "2026-10-12T09:11:13+02:00"
   },
   {
    "cle": "transfert",
@@ -388,7 +388,7 @@
    "2026-10-09": "degrade",
    "2026-10-10": "operationnel",
    "2026-10-11": "operationnel",
-   "2026-10-12": "operationnel"
+   "2026-10-12": "panne_partielle"
   },
   "transfert": {
    "2026-09-09": "operationnel",
