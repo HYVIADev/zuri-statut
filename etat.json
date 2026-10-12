@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-12T19:01:18+02:00",
+ "genere_le": "2026-10-12T20:17:04+02:00",
  "etat_global": "panne_partielle",
  "resume": "SMS de confirmation : panne partielle. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -77,7 +77,7 @@
    "etat": "panne_partielle",
    "detail": "1 échec(s) sur 2 · 1 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
-   "depuis": "2026-10-12T18:59:16+02:00"
+   "depuis": "2026-10-12T19:06:21+02:00"
   },
   {
    "cle": "transfert",
@@ -157,8 +157,8 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "operationnel",
-   "detail": "Tous leurs services fonctionnent",
+   "etat": "inconnu",
+   "detail": "état Doctolib non consultable",
    "source": "status.doctolib.com",
    "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
   },
