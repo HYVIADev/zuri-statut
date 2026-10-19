@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-19T11:40:40+02:00",
- "etat_global": "panne_majeure",
- "resume": "Envoi au patient : en panne. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-10-19T11:45:50+02:00",
+ "etat_global": "panne_partielle",
+ "resume": "Envoi au patient : panne partielle. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -128,10 +128,10 @@
    "cle": "a_envoi",
    "groupe": "assistante",
    "nom": "Envoi au patient",
-   "etat": "panne_majeure",
-   "detail": "envois : 28 échec(s) sur 28, aucun passé",
+   "etat": "panne_partielle",
+   "detail": "envois : 29 échec(s) sur 30",
    "aide": "Le document part par SMS ou par courriel.",
-   "depuis": "2026-10-19T11:36:37+02:00"
+   "depuis": "2026-10-19T11:41:41+02:00"
   },
   {
    "cle": "a_signature",
@@ -157,8 +157,8 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "operationnel",
-   "detail": "Tous leurs services fonctionnent",
+   "etat": "inconnu",
+   "detail": "état Doctolib non consultable",
    "source": "status.doctolib.com",
    "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
   },
