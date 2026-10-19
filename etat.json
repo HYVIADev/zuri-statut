@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-19T11:05:24+02:00",
+ "genere_le": "2026-10-19T11:10:27+02:00",
  "etat_global": "panne_partielle",
  "resume": "2 services perturbés : Voix de Zuri, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "panne_partielle",
-   "detail": "envois : 22 échec(s) sur 24",
+   "detail": "envois : 23 échec(s) sur 25",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-10-19T09:08:57+02:00"
   },
