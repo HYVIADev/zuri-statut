@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-19T10:19:53+02:00",
+ "genere_le": "2026-10-19T10:24:57+02:00",
  "etat_global": "panne_partielle",
- "resume": "Envoi au patient : panne partielle. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "2 services perturbés : Voix de Zuri, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "degrade",
+   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-10-15T19:21:30+02:00"
+   "depuis": "2026-10-19T10:24:57+02:00"
   },
   {
    "cle": "cerveau",
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "panne_partielle",
-   "detail": "envois : 14 échec(s) sur 16",
+   "detail": "envois : 15 échec(s) sur 17",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-10-19T09:08:57+02:00"
   },
@@ -301,7 +301,7 @@
    "2026-10-16": "operationnel",
    "2026-10-17": "operationnel",
    "2026-10-18": "operationnel",
-   "2026-10-19": "operationnel"
+   "2026-10-19": "degrade"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
