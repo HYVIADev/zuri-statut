@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-19T11:35:36+02:00",
- "etat_global": "panne_partielle",
- "resume": "Envoi au patient : panne partielle. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-10-19T11:40:40+02:00",
+ "etat_global": "panne_majeure",
+ "resume": "Envoi au patient : en panne. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -128,10 +128,10 @@
    "cle": "a_envoi",
    "groupe": "assistante",
    "nom": "Envoi au patient",
-   "etat": "panne_partielle",
-   "detail": "envois : 28 échec(s) sur 29",
+   "etat": "panne_majeure",
+   "detail": "envois : 28 échec(s) sur 28, aucun passé",
    "aide": "Le document part par SMS ou par courriel.",
-   "depuis": "2026-10-19T09:08:57+02:00"
+   "depuis": "2026-10-19T11:36:37+02:00"
   },
   {
    "cle": "a_signature",
@@ -688,7 +688,7 @@
    "2026-10-16": "operationnel",
    "2026-10-17": "operationnel",
    "2026-10-18": "operationnel",
-   "2026-10-19": "panne_partielle"
+   "2026-10-19": "panne_majeure"
   },
   "a_signature": {
    "2026-09-09": "operationnel",
