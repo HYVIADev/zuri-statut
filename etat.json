@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-19T20:16:10+02:00",
+ "genere_le": "2026-10-19T20:21:12+02:00",
  "etat_global": "panne_majeure",
  "resume": "Envoi au patient : en panne. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "panne_majeure",
-   "detail": "envois : 28 échec(s) sur 28, aucun passé",
+   "detail": "envois : 27 échec(s) sur 27, aucun passé",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-10-19T18:51:08+02:00"
   },
