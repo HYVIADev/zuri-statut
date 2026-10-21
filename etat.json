@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-21T16:32:50+02:00",
+ "genere_le": "2026-10-21T16:37:45+02:00",
  "etat_global": "degrade",
  "resume": "SMS de confirmation : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "degrade",
-   "detail": "1 échec(s) sur 6 · 1 annoncé(s) au patient sans être parti(s)",
+   "detail": "1 échec(s) sur 7 · 1 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-10-21T15:59:25+02:00"
   },
@@ -157,8 +157,8 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "inconnu",
-   "detail": "état Doctolib non consultable",
+   "etat": "operationnel",
+   "detail": "Tous leurs services fonctionnent",
    "source": "status.doctolib.com",
    "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
   },
