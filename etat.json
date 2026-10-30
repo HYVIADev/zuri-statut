@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-30T07:36:10+01:00",
- "etat_global": "operationnel",
- "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
+ "genere_le": "2026-10-30T10:06:45+01:00",
+ "etat_global": "degrade",
+ "resume": "Voix de Zuri : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "degrade",
+   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-10-29T13:10:09+01:00"
+   "depuis": "2026-10-30T10:04:44+01:00"
   },
   {
    "cle": "cerveau",
@@ -334,7 +334,7 @@
    "2026-10-27": "degrade",
    "2026-10-28": "degrade",
    "2026-10-29": "degrade",
-   "2026-10-30": "operationnel"
+   "2026-10-30": "degrade"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
