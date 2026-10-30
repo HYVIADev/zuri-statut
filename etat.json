@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-30T14:26:21+01:00",
- "etat_global": "operationnel",
- "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
+ "genere_le": "2026-10-30T15:26:59+01:00",
+ "etat_global": "degrade",
+ "resume": "Envoi au patient : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -128,10 +128,10 @@
    "cle": "a_envoi",
    "groupe": "assistante",
    "nom": "Envoi au patient",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "degrade",
+   "detail": "2 envoi(s) retenus par un garde-fou",
    "aide": "Le document part par SMS ou par courriel.",
-   "depuis": "2026-10-29T19:30:57+01:00"
+   "depuis": "2026-10-30T15:19:52+01:00"
   },
   {
    "cle": "a_signature",
@@ -820,7 +820,7 @@
    "2026-10-27": "degrade",
    "2026-10-28": "degrade",
    "2026-10-29": "degrade",
-   "2026-10-30": "operationnel"
+   "2026-10-30": "degrade"
   },
   "a_signature": {
    "2026-09-09": "operationnel",
