@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-10-31T15:10:02+01:00",
+ "genere_le": "2026-10-31T15:15:06+01:00",
  "etat_global": "degrade",
  "resume": "Envoi au patient : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "degrade",
-   "detail": "20 envoi(s) retenus par un garde-fou",
+   "detail": "18 envoi(s) retenus par un garde-fou",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-10-31T11:19:26+01:00"
   },
