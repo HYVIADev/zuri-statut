@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-02T23:02:32+01:00",
- "etat_global": "operationnel",
- "resume": "Nos services fonctionnent normalement. Opérateur téléphonique signale de son côté : une partie de leurs services est ralentie.",
+ "genere_le": "2026-11-02T23:22:33+01:00",
+ "etat_global": "panne_majeure",
+ "resume": "Voix de Zuri : en panne. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_majeure",
+   "detail": "service arrêté · la voix ne répond pas (réponse 503) · moteur de voix : injoignable",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-11-02T20:16:26+01:00"
+   "depuis": "2026-11-02T23:20:33+01:00"
   },
   {
    "cle": "cerveau",
@@ -343,7 +343,7 @@
    "2026-10-30": "degrade",
    "2026-10-31": "degrade",
    "2026-11-01": "operationnel",
-   "2026-11-02": "degrade"
+   "2026-11-02": "panne_majeure"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
