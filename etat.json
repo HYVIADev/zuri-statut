@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-02T23:22:33+01:00",
+ "genere_le": "2026-11-02T23:36:34+01:00",
  "etat_global": "panne_majeure",
- "resume": "Voix de Zuri : en panne. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "2 services perturbés : Voix de Zuri, Compréhension de la demande. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -56,10 +56,10 @@
    "cle": "cerveau",
    "groupe": "secretaire",
    "nom": "Compréhension de la demande",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "degrade",
+   "detail": "cerveau de secours en service",
    "aide": "Ce qui permet à Zuri de comprendre la demande et d'y répondre.",
-   "depuis": "2026-11-01T22:28:12+01:00"
+   "depuis": "2026-11-02T23:32:33+01:00"
   },
   {
    "cle": "rdv",
@@ -400,7 +400,7 @@
    "2026-10-30": "operationnel",
    "2026-10-31": "operationnel",
    "2026-11-01": "degrade",
-   "2026-11-02": "operationnel"
+   "2026-11-02": "degrade"
   },
   "rdv": {
    "2026-09-09": "operationnel",
