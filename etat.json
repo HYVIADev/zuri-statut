@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-03T07:07:50+01:00",
- "etat_global": "degrade",
- "resume": "2 services perturbés : Compréhension de la demande, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-11-03T09:52:46+01:00",
+ "etat_global": "panne_partielle",
+ "resume": "3 services perturbés : Compréhension de la demande, Prise de rendez-vous, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -65,10 +65,10 @@
    "cle": "rdv",
    "groupe": "secretaire",
    "nom": "Prise de rendez-vous",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_partielle",
+   "detail": "connexion à l'agenda perdue (1 cabinet(s))",
    "aide": "L'écriture du rendez-vous dans l'agenda.",
-   "depuis": "2026-10-06T13:15:42+02:00"
+   "depuis": "2026-11-03T09:51:46+01:00"
   },
   {
    "cle": "sms",
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "degrade",
-   "detail": "210 envoi(s) retenus par un garde-fou",
+   "detail": "87 envoi(s) retenus par un garde-fou",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-11-03T01:04:03+01:00"
   },
@@ -462,7 +462,7 @@
    "2026-10-31": "operationnel",
    "2026-11-01": "operationnel",
    "2026-11-02": "operationnel",
-   "2026-11-03": "operationnel"
+   "2026-11-03": "panne_partielle"
   },
   "sms": {
    "2026-09-09": "operationnel",
