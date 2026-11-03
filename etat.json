@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-03T09:52:46+01:00",
- "etat_global": "panne_partielle",
- "resume": "3 services perturbés : Compréhension de la demande, Prise de rendez-vous, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-11-03T09:57:47+01:00",
+ "etat_global": "degrade",
+ "resume": "2 services perturbés : Compréhension de la demande, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -41,7 +41,7 @@
    "etat": "operationnel",
    "detail": "",
    "aide": "Ce que le patient dit est bien entendu et transcrit.",
-   "depuis": "2026-11-02T19:42:11+01:00"
+   "depuis": "2026-11-03T09:56:47+01:00"
   },
   {
    "cle": "voix",
@@ -50,7 +50,7 @@
    "etat": "operationnel",
    "detail": "",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-11-02T23:59:34+01:00"
+   "depuis": "2026-11-03T09:56:47+01:00"
   },
   {
    "cle": "cerveau",
@@ -65,10 +65,10 @@
    "cle": "rdv",
    "groupe": "secretaire",
    "nom": "Prise de rendez-vous",
-   "etat": "panne_partielle",
-   "detail": "connexion à l'agenda perdue (1 cabinet(s))",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "L'écriture du rendez-vous dans l'agenda.",
-   "depuis": "2026-11-03T09:51:46+01:00"
+   "depuis": "2026-11-03T09:55:46+01:00"
   },
   {
    "cle": "sms",
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "degrade",
-   "detail": "87 envoi(s) retenus par un garde-fou",
+   "detail": "81 envoi(s) retenus par un garde-fou",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-11-03T01:04:03+01:00"
   },
@@ -288,7 +288,7 @@
    "2026-10-31": "operationnel",
    "2026-11-01": "operationnel",
    "2026-11-02": "inconnu",
-   "2026-11-03": "operationnel"
+   "2026-11-03": "inconnu"
   },
   "voix": {
    "2026-09-09": "operationnel",
@@ -346,7 +346,7 @@
    "2026-10-31": "degrade",
    "2026-11-01": "operationnel",
    "2026-11-02": "panne_majeure",
-   "2026-11-03": "operationnel"
+   "2026-11-03": "inconnu"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
