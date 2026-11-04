@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-04T12:44:32+01:00",
+ "genere_le": "2026-11-04T13:43:45+01:00",
  "etat_global": "degrade",
- "resume": "3 services perturbés : Voix de Zuri, Compréhension de la demande, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "2 services perturbés : Compréhension de la demande, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "degrade",
-   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-11-04T12:44:32+01:00"
+   "depuis": "2026-11-04T13:42:44+01:00"
   },
   {
    "cle": "cerveau",
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "degrade",
-   "detail": "16 envoi(s) retenus par un garde-fou",
+   "detail": "21 envoi(s) retenus par un garde-fou",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-11-04T11:18:57+01:00"
   },
