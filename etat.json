@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-09T13:49:23+01:00",
+ "genere_le": "2026-11-09T16:13:56+01:00",
  "etat_global": "panne_majeure",
- "resume": "3 services perturbés : Compréhension de la demande, SMS de confirmation, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "4 services perturbés : Voix de Zuri, Compréhension de la demande, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "degrade",
+   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-11-04T13:42:44+01:00"
+   "depuis": "2026-11-09T16:10:56+01:00"
   },
   {
    "cle": "cerveau",
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "panne_majeure",
-   "detail": "11 échec(s) sur 11, aucun passé",
+   "detail": "16 échec(s) sur 16, aucun passé",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-11-09T09:02:37+01:00"
   },
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "degrade",
-   "detail": "49 envoi(s) retenus par un garde-fou",
+   "detail": "9 envoi(s) retenus par un garde-fou",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-11-09T01:02:19+01:00"
   },
@@ -364,7 +364,7 @@
    "2026-11-06": "operationnel",
    "2026-11-07": "operationnel",
    "2026-11-08": "operationnel",
-   "2026-11-09": "operationnel"
+   "2026-11-09": "degrade"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
