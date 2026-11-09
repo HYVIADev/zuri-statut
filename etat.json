@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-09T17:14:07+01:00",
+ "genere_le": "2026-11-09T17:54:17+01:00",
  "etat_global": "panne_majeure",
- "resume": "4 services perturbés : Voix de Zuri, Compréhension de la demande, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "3 services perturbés : Compréhension de la demande, SMS de confirmation, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "degrade",
-   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-11-09T16:10:56+01:00"
+   "depuis": "2026-11-09T17:50:15+01:00"
   },
   {
    "cle": "cerveau",
