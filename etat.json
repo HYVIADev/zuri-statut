@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-10T18:19:44+01:00",
- "etat_global": "degrade",
- "resume": "2 services perturbés : Compréhension de la demande, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-11-10T18:49:52+01:00",
+ "etat_global": "panne_majeure",
+ "resume": "3 services perturbés : Compréhension de la demande, SMS de confirmation, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -74,10 +74,10 @@
    "cle": "sms",
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_majeure",
+   "detail": "3 échec(s) sur 3, aucun passé",
    "aide": "Le message envoyé au patient après l'appel.",
-   "depuis": "2026-11-10T18:19:44+01:00"
+   "depuis": "2026-11-10T18:47:51+01:00"
   },
   {
    "cle": "transfert",
