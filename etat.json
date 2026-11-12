@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-12T08:05:37+01:00",
+ "genere_le": "2026-11-12T09:00:41+01:00",
  "etat_global": "panne_majeure",
- "resume": "3 services perturbés : Compréhension de la demande, SMS de confirmation, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "4 services perturbés : Voix de Zuri, Compréhension de la demande, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "degrade",
+   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-11-09T17:50:15+01:00"
+   "depuis": "2026-11-12T09:00:41+01:00"
   },
   {
    "cle": "cerveau",
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "panne_majeure",
-   "detail": "1 échec(s) sur 1, aucun passé",
+   "detail": "4 échec(s) sur 4, aucun passé",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-11-12T08:03:37+01:00"
   },
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "panne_majeure",
-   "detail": "envois : 33 échec(s) sur 33, aucun passé",
+   "detail": "envois : 268 échec(s) sur 268, aucun passé",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-11-12T08:04:37+01:00"
   },
@@ -373,7 +373,7 @@
    "2026-11-09": "degrade",
    "2026-11-10": "operationnel",
    "2026-11-11": "operationnel",
-   "2026-11-12": "operationnel"
+   "2026-11-12": "degrade"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
