@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-12T07:45:36+01:00",
- "etat_global": "degrade",
- "resume": "Compréhension de la demande : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-11-12T08:05:37+01:00",
+ "etat_global": "panne_majeure",
+ "resume": "3 services perturbés : Compréhension de la demande, SMS de confirmation, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -74,10 +74,10 @@
    "cle": "sms",
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_majeure",
+   "detail": "1 échec(s) sur 1, aucun passé",
    "aide": "Le message envoyé au patient après l'appel.",
-   "depuis": "2026-11-11T15:43:15+01:00"
+   "depuis": "2026-11-12T08:03:37+01:00"
   },
   {
    "cle": "transfert",
@@ -128,10 +128,10 @@
    "cle": "a_envoi",
    "groupe": "assistante",
    "nom": "Envoi au patient",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_majeure",
+   "detail": "envois : 33 échec(s) sur 33, aucun passé",
    "aide": "Le document part par SMS ou par courriel.",
-   "depuis": "2026-11-11T10:58:41+01:00"
+   "depuis": "2026-11-12T08:04:37+01:00"
   },
   {
    "cle": "a_signature",
@@ -574,7 +574,7 @@
    "2026-11-09": "panne_majeure",
    "2026-11-10": "panne_majeure",
    "2026-11-11": "panne_majeure",
-   "2026-11-12": "operationnel"
+   "2026-11-12": "panne_majeure"
   },
   "transfert": {
    "2026-09-09": "operationnel",
@@ -976,7 +976,7 @@
    "2026-11-09": "degrade",
    "2026-11-10": "degrade",
    "2026-11-11": "degrade",
-   "2026-11-12": "operationnel"
+   "2026-11-12": "panne_majeure"
   },
   "a_signature": {
    "2026-09-09": "operationnel",
