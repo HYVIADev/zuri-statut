@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-12T17:45:53+01:00",
+ "genere_le": "2026-11-12T18:00:53+01:00",
  "etat_global": "panne_majeure",
- "resume": "3 services perturbés : Compréhension de la demande, SMS de confirmation, Envoi au patient. Doctolib est également perturbé, hors de notre contrôle.",
+ "resume": "3 services perturbés : Compréhension de la demande, SMS de confirmation, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "panne_majeure",
-   "detail": "13 échec(s) sur 13, aucun passé · 1 annoncé(s) au patient sans être parti(s)",
+   "detail": "6 échec(s) sur 6, aucun passé · 2 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-11-12T08:03:37+01:00"
   },
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "panne_majeure",
-   "detail": "envois : 923 échec(s) sur 923, aucun passé",
+   "detail": "envois : 925 échec(s) sur 925, aucun passé",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-11-12T08:04:37+01:00"
   },
@@ -157,8 +157,8 @@
    "cle": "doctolib",
    "groupe": "tiers",
    "nom": "Doctolib",
-   "etat": "degrade",
-   "detail": "Une partie de leurs services est ralentie",
+   "etat": "operationnel",
+   "detail": "Tous leurs services fonctionnent",
    "source": "status.doctolib.com",
    "aide": "L'agenda dans lequel Zuri écrit. Hors de notre contrôle : nous le recopions."
   },
