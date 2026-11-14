@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-14T15:42:31+01:00",
+ "genere_le": "2026-11-14T16:12:32+01:00",
  "etat_global": "panne_majeure",
- "resume": "2 services perturbés : Compréhension de la demande, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "3 services perturbés : Voix de Zuri, Compréhension de la demande, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -47,10 +47,10 @@
    "cle": "voix",
    "groupe": "secretaire",
    "nom": "Voix de Zuri",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "degrade",
+   "detail": "1 phrase(s) dites par la voix de secours en 60 min",
    "aide": "La voix avec laquelle Zuri répond au téléphone.",
-   "depuis": "2026-11-12T12:01:10+01:00"
+   "depuis": "2026-11-14T16:10:31+01:00"
   },
   {
    "cle": "cerveau",
@@ -75,7 +75,7 @@
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "panne_majeure",
-   "detail": "1 échec(s) sur 1, aucun passé",
+   "detail": "2 échec(s) sur 2, aucun passé",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-11-14T15:41:30+01:00"
   },
@@ -379,7 +379,7 @@
    "2026-11-11": "operationnel",
    "2026-11-12": "degrade",
    "2026-11-13": "operationnel",
-   "2026-11-14": "operationnel"
+   "2026-11-14": "degrade"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
