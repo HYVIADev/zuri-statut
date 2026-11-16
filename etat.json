@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-15T19:02:50+01:00",
+ "genere_le": "2026-11-16T01:07:54+01:00",
  "etat_global": "degrade",
- "resume": "Compréhension de la demande : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "2 services perturbés : Compréhension de la demande, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -128,10 +128,10 @@
    "cle": "a_envoi",
    "groupe": "assistante",
    "nom": "Envoi au patient",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "degrade",
+   "detail": "15 envoi(s) retenus par un garde-fou",
    "aide": "Le document part par SMS ou par courriel.",
-   "depuis": "2026-11-15T10:55:49+01:00"
+   "depuis": "2026-11-16T01:05:54+01:00"
   },
   {
    "cle": "a_signature",
@@ -242,7 +242,8 @@
    "2026-11-12": "operationnel",
    "2026-11-13": "operationnel",
    "2026-11-14": "operationnel",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   },
   "comprehension": {
    "2026-09-09": "operationnel",
@@ -312,7 +313,8 @@
    "2026-11-12": "operationnel",
    "2026-11-13": "operationnel",
    "2026-11-14": "operationnel",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   },
   "voix": {
    "2026-09-09": "operationnel",
@@ -382,7 +384,8 @@
    "2026-11-12": "degrade",
    "2026-11-13": "operationnel",
    "2026-11-14": "degrade",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
@@ -452,7 +455,8 @@
    "2026-11-12": "degrade",
    "2026-11-13": "degrade",
    "2026-11-14": "degrade",
-   "2026-11-15": "degrade"
+   "2026-11-15": "degrade",
+   "2026-11-16": "degrade"
   },
   "rdv": {
    "2026-09-09": "operationnel",
@@ -522,7 +526,8 @@
    "2026-11-12": "operationnel",
    "2026-11-13": "operationnel",
    "2026-11-14": "operationnel",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   },
   "sms": {
    "2026-09-09": "operationnel",
@@ -592,7 +597,8 @@
    "2026-11-12": "panne_majeure",
    "2026-11-13": "panne_majeure",
    "2026-11-14": "panne_majeure",
-   "2026-11-15": "panne_majeure"
+   "2026-11-15": "panne_majeure",
+   "2026-11-16": "operationnel"
   },
   "transfert": {
    "2026-09-09": "operationnel",
@@ -662,7 +668,8 @@
    "2026-11-12": "operationnel",
    "2026-11-13": "operationnel",
    "2026-11-14": "operationnel",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   },
   "espace": {
    "2026-09-09": "operationnel",
@@ -732,7 +739,8 @@
    "2026-11-12": "operationnel",
    "2026-11-13": "operationnel",
    "2026-11-14": "operationnel",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   },
   "a_acces": {
    "2026-09-09": "operationnel",
@@ -802,7 +810,8 @@
    "2026-11-12": "operationnel",
    "2026-11-13": "operationnel",
    "2026-11-14": "operationnel",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   },
   "a_parcours": {
    "2026-09-09": "operationnel",
@@ -872,7 +881,8 @@
    "2026-11-12": "operationnel",
    "2026-11-13": "operationnel",
    "2026-11-14": "operationnel",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   },
   "a_documents": {
    "2026-09-09": "operationnel",
@@ -942,7 +952,8 @@
    "2026-11-12": "operationnel",
    "2026-11-13": "operationnel",
    "2026-11-14": "operationnel",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   },
   "a_envoi": {
    "2026-09-09": "operationnel",
@@ -1012,7 +1023,8 @@
    "2026-11-12": "panne_majeure",
    "2026-11-13": "degrade",
    "2026-11-14": "degrade",
-   "2026-11-15": "degrade"
+   "2026-11-15": "degrade",
+   "2026-11-16": "degrade"
   },
   "a_signature": {
    "2026-09-09": "operationnel",
@@ -1082,7 +1094,8 @@
    "2026-11-12": "operationnel",
    "2026-11-13": "operationnel",
    "2026-11-14": "operationnel",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   },
   "a_portail": {
    "2026-09-09": "operationnel",
@@ -1152,7 +1165,8 @@
    "2026-11-12": "operationnel",
    "2026-11-13": "operationnel",
    "2026-11-14": "operationnel",
-   "2026-11-15": "operationnel"
+   "2026-11-15": "operationnel",
+   "2026-11-16": "operationnel"
   }
  }
 }
