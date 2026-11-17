@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-17T12:24:17+01:00",
+ "genere_le": "2026-11-17T12:44:21+01:00",
  "etat_global": "panne_majeure",
- "resume": "4 services perturbés : Compréhension de la demande, Prise de rendez-vous, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "resume": "3 services perturbés : Compréhension de la demande, SMS de confirmation, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -65,17 +65,17 @@
    "cle": "rdv",
    "groupe": "secretaire",
    "nom": "Prise de rendez-vous",
-   "etat": "panne_majeure",
-   "detail": "réservations : 1 échec(s) sur 1, aucun passé",
+   "etat": "operationnel",
+   "detail": "",
    "aide": "L'écriture du rendez-vous dans l'agenda.",
-   "depuis": "2026-11-17T12:13:15+01:00"
+   "depuis": "2026-11-17T12:44:21+01:00"
   },
   {
    "cle": "sms",
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
    "etat": "panne_majeure",
-   "detail": "6 échec(s) sur 6, aucun passé",
+   "detail": "3 échec(s) sur 3, aucun passé",
    "aide": "Le message envoyé au patient après l'appel.",
    "depuis": "2026-11-17T09:23:02+01:00"
   },
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "degrade",
-   "detail": "1 envoi(s) retenus par un garde-fou",
+   "detail": "4 envoi(s) retenus par un garde-fou",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-11-17T12:23:16+01:00"
   },
