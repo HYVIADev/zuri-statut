@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-17T11:34:12+01:00",
+ "genere_le": "2026-11-17T12:14:13+01:00",
  "etat_global": "panne_majeure",
  "resume": "3 services perturbés : Compréhension de la demande, Prise de rendez-vous, SMS de confirmation. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -65,10 +65,10 @@
    "cle": "rdv",
    "groupe": "secretaire",
    "nom": "Prise de rendez-vous",
-   "etat": "panne_partielle",
-   "detail": "réservations : 1 échec(s) sur 2",
+   "etat": "panne_majeure",
+   "detail": "réservations : 1 échec(s) sur 1, aucun passé",
    "aide": "L'écriture du rendez-vous dans l'agenda.",
-   "depuis": "2026-11-17T11:32:11+01:00"
+   "depuis": "2026-11-17T12:13:15+01:00"
   },
   {
    "cle": "sms",
@@ -532,7 +532,7 @@
    "2026-11-14": "operationnel",
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
-   "2026-11-17": "panne_partielle"
+   "2026-11-17": "panne_majeure"
   },
   "sms": {
    "2026-09-09": "operationnel",
