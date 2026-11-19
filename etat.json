@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-18T19:15:38+01:00",
+ "genere_le": "2026-11-19T01:15:37+01:00",
  "etat_global": "degrade",
  "resume": "Compréhension de la demande : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -245,7 +245,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
    "2026-11-17": "operationnel",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   },
   "comprehension": {
    "2026-09-09": "operationnel",
@@ -318,7 +319,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
    "2026-11-17": "operationnel",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   },
   "voix": {
    "2026-09-09": "operationnel",
@@ -391,7 +393,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "degrade",
    "2026-11-17": "operationnel",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
@@ -464,7 +467,8 @@
    "2026-11-15": "degrade",
    "2026-11-16": "degrade",
    "2026-11-17": "degrade",
-   "2026-11-18": "degrade"
+   "2026-11-18": "degrade",
+   "2026-11-19": "degrade"
   },
   "rdv": {
    "2026-09-09": "operationnel",
@@ -537,7 +541,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
    "2026-11-17": "panne_majeure",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   },
   "sms": {
    "2026-09-09": "operationnel",
@@ -610,7 +615,8 @@
    "2026-11-15": "panne_majeure",
    "2026-11-16": "panne_majeure",
    "2026-11-17": "panne_majeure",
-   "2026-11-18": "panne_majeure"
+   "2026-11-18": "panne_majeure",
+   "2026-11-19": "operationnel"
   },
   "transfert": {
    "2026-09-09": "operationnel",
@@ -683,7 +689,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
    "2026-11-17": "operationnel",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   },
   "espace": {
    "2026-09-09": "operationnel",
@@ -756,7 +763,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
    "2026-11-17": "operationnel",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   },
   "a_acces": {
    "2026-09-09": "operationnel",
@@ -829,7 +837,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
    "2026-11-17": "operationnel",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   },
   "a_parcours": {
    "2026-09-09": "operationnel",
@@ -902,7 +911,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
    "2026-11-17": "operationnel",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   },
   "a_documents": {
    "2026-09-09": "operationnel",
@@ -975,7 +985,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
    "2026-11-17": "operationnel",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   },
   "a_envoi": {
    "2026-09-09": "operationnel",
@@ -1048,7 +1059,8 @@
    "2026-11-15": "degrade",
    "2026-11-16": "degrade",
    "2026-11-17": "degrade",
-   "2026-11-18": "degrade"
+   "2026-11-18": "degrade",
+   "2026-11-19": "operationnel"
   },
   "a_signature": {
    "2026-09-09": "operationnel",
@@ -1121,7 +1133,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
    "2026-11-17": "operationnel",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   },
   "a_portail": {
    "2026-09-09": "operationnel",
@@ -1194,7 +1207,8 @@
    "2026-11-15": "operationnel",
    "2026-11-16": "operationnel",
    "2026-11-17": "operationnel",
-   "2026-11-18": "operationnel"
+   "2026-11-18": "operationnel",
+   "2026-11-19": "operationnel"
   }
  }
 }
