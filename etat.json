@@ -1,7 +1,7 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-25T11:06:19+01:00",
- "etat_global": "panne_majeure",
+ "genere_le": "2026-11-25T11:51:29+01:00",
+ "etat_global": "panne_partielle",
  "resume": "2 services perturbés : Compréhension de la demande, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
@@ -128,10 +128,10 @@
    "cle": "a_envoi",
    "groupe": "assistante",
    "nom": "Envoi au patient",
-   "etat": "panne_majeure",
-   "detail": "envois : 30 échec(s) sur 30, aucun passé",
+   "etat": "panne_partielle",
+   "detail": "envois : 30 échec(s) sur 31",
    "aide": "Le document part par SMS ou par courriel.",
-   "depuis": "2026-11-25T11:03:17+01:00"
+   "depuis": "2026-11-25T11:49:29+01:00"
   },
   {
    "cle": "a_signature",
