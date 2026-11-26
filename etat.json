@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-25T22:56:48+01:00",
+ "genere_le": "2026-11-26T04:56:53+01:00",
  "etat_global": "degrade",
  "resume": "Compréhension de la demande : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -252,7 +252,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "comprehension": {
    "2026-09-09": "operationnel",
@@ -332,7 +333,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "voix": {
    "2026-09-09": "operationnel",
@@ -412,7 +414,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "degrade",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "cerveau": {
    "2026-09-09": "operationnel",
@@ -492,7 +495,8 @@
    "2026-11-22": "degrade",
    "2026-11-23": "degrade",
    "2026-11-24": "degrade",
-   "2026-11-25": "degrade"
+   "2026-11-25": "degrade",
+   "2026-11-26": "degrade"
   },
   "rdv": {
    "2026-09-09": "operationnel",
@@ -572,7 +576,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "sms": {
    "2026-09-09": "operationnel",
@@ -652,7 +657,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "panne_majeure",
    "2026-11-24": "panne_partielle",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "transfert": {
    "2026-09-09": "operationnel",
@@ -732,7 +738,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "espace": {
    "2026-09-09": "operationnel",
@@ -812,7 +819,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "a_acces": {
    "2026-09-09": "operationnel",
@@ -892,7 +900,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "a_parcours": {
    "2026-09-09": "operationnel",
@@ -972,7 +981,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "a_documents": {
    "2026-09-09": "operationnel",
@@ -1052,7 +1062,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "a_envoi": {
    "2026-09-09": "operationnel",
@@ -1132,7 +1143,8 @@
    "2026-11-22": "degrade",
    "2026-11-23": "degrade",
    "2026-11-24": "degrade",
-   "2026-11-25": "panne_majeure"
+   "2026-11-25": "panne_majeure",
+   "2026-11-26": "operationnel"
   },
   "a_signature": {
    "2026-09-09": "operationnel",
@@ -1212,7 +1224,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   },
   "a_portail": {
    "2026-09-09": "operationnel",
@@ -1292,7 +1305,8 @@
    "2026-11-22": "operationnel",
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
-   "2026-11-25": "operationnel"
+   "2026-11-25": "operationnel",
+   "2026-11-26": "operationnel"
   }
  }
 }
