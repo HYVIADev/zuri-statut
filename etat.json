@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-26T04:56:53+01:00",
- "etat_global": "degrade",
- "resume": "Compréhension de la demande : ralenti. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-11-26T07:27:20+01:00",
+ "etat_global": "panne_majeure",
+ "resume": "2 services perturbés : Compréhension de la demande, Prise de rendez-vous. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -65,10 +65,10 @@
    "cle": "rdv",
    "groupe": "secretaire",
    "nom": "Prise de rendez-vous",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_majeure",
+   "detail": "réservations : 1 échec(s) sur 1, aucun passé",
    "aide": "L'écriture du rendez-vous dans l'agenda.",
-   "depuis": "2026-11-17T12:44:21+01:00"
+   "depuis": "2026-11-26T07:24:17+01:00"
   },
   {
    "cle": "sms",
@@ -577,7 +577,7 @@
    "2026-11-23": "operationnel",
    "2026-11-24": "operationnel",
    "2026-11-25": "operationnel",
-   "2026-11-26": "operationnel"
+   "2026-11-26": "panne_majeure"
   },
   "sms": {
    "2026-09-09": "operationnel",
