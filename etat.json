@@ -1,6 +1,6 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-27T11:04:17+01:00",
+ "genere_le": "2026-11-27T11:49:20+01:00",
  "etat_global": "panne_majeure",
  "resume": "3 services perturbés : Compréhension de la demande, SMS de confirmation, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
@@ -74,10 +74,10 @@
    "cle": "sms",
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
-   "etat": "panne_partielle",
-   "detail": "3 échec(s) sur 6 · 3 annoncé(s) au patient sans être parti(s)",
+   "etat": "degrade",
+   "detail": "2 échec(s) sur 7 · 2 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
-   "depuis": "2026-11-27T09:51:12+01:00"
+   "depuis": "2026-11-27T11:46:20+01:00"
   },
   {
    "cle": "transfert",
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "panne_majeure",
-   "detail": "envois : 30 échec(s) sur 30, aucun passé",
+   "detail": "envois : 31 échec(s) sur 31, aucun passé",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-11-27T11:04:17+01:00"
   },
