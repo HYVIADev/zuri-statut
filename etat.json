@@ -1,8 +1,8 @@
 {
  "produit": "Zuri",
- "genere_le": "2026-11-27T08:14:02+01:00",
- "etat_global": "panne_partielle",
- "resume": "2 services perturbés : Compréhension de la demande, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
+ "genere_le": "2026-11-27T08:49:04+01:00",
+ "etat_global": "panne_majeure",
+ "resume": "3 services perturbés : Compréhension de la demande, SMS de confirmation, Envoi au patient. Opérateur téléphonique est également perturbé, hors de notre contrôle.",
  "libelles": {
   "operationnel": "Opérationnel",
   "maintenance": "Maintenance",
@@ -74,10 +74,10 @@
    "cle": "sms",
    "groupe": "secretaire",
    "nom": "SMS de confirmation",
-   "etat": "operationnel",
-   "detail": "",
+   "etat": "panne_majeure",
+   "detail": "1 échec(s) sur 1, aucun passé · 1 annoncé(s) au patient sans être parti(s)",
    "aide": "Le message envoyé au patient après l'appel.",
-   "depuis": "2026-11-26T17:17:10+01:00"
+   "depuis": "2026-11-27T08:47:04+01:00"
   },
   {
    "cle": "transfert",
@@ -129,7 +129,7 @@
    "groupe": "assistante",
    "nom": "Envoi au patient",
    "etat": "panne_partielle",
-   "detail": "envois : 2 échec(s) sur 4",
+   "detail": "envois : 8 échec(s) sur 10",
    "aide": "Le document part par SMS ou par courriel.",
    "depuis": "2026-11-27T08:10:04+01:00"
   },
@@ -664,7 +664,7 @@
    "2026-11-24": "panne_partielle",
    "2026-11-25": "operationnel",
    "2026-11-26": "panne_majeure",
-   "2026-11-27": "operationnel"
+   "2026-11-27": "panne_majeure"
   },
   "transfert": {
    "2026-09-09": "operationnel",
